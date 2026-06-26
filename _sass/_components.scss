@@ -1,0 +1,172 @@
+.site-header,
+.site-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 24px;
+}
+
+.site-header {
+  border-bottom: 1px solid $line;
+}
+
+.brand {
+  color: $ink;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  gap: 18px;
+}
+
+nav a {
+  color: $muted-ink;
+  font-size: 0.94rem;
+}
+
+nav a:hover {
+  color: $accent-deep;
+}
+
+.hero,
+.page-header {
+  padding: 88px 0 62px;
+}
+
+.hero {
+  max-width: 760px;
+}
+
+.eyebrow {
+  color: $accent;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.lede {
+  font-size: clamp(1.08rem, 2vw, 1.3rem);
+  max-width: 720px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.button {
+  background: $accent-deep;
+  border: 1px solid $accent-deep;
+  border-radius: 6px;
+  color: $surface;
+  display: inline-flex;
+  font-weight: 700;
+  min-height: 44px;
+  padding: 10px 18px;
+}
+
+.button-secondary {
+  background: transparent;
+  color: $accent-deep;
+}
+
+.section {
+  border-top: 1px solid $line;
+  padding: 54px 0;
+}
+
+.section.muted {
+  background: $surface-muted;
+  box-shadow: 0 0 0 100vmax $surface-muted;
+  clip-path: inset(0 -100vmax);
+}
+
+.section-heading {
+  max-width: 680px;
+}
+
+.grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 28px;
+}
+
+.card {
+  background: $surface;
+  border: 1px solid $line;
+  border-radius: 8px;
+  box-shadow: $shadow;
+  padding: 24px;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.list {
+  border: 1px solid $line;
+  border-radius: 8px;
+  margin-top: 28px;
+  overflow: hidden;
+}
+
+.list a {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.52);
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 20px;
+}
+
+.list a + a {
+  border-top: 1px solid $line;
+}
+
+.list strong {
+  color: $accent;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.site-footer {
+  border-top: 1px solid $line;
+  margin-top: 30px;
+}
+
+.site-footer p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  .site-header,
+  .site-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px 18px;
+  }
+
+  .hero,
+  .page-header {
+    padding: 64px 0 46px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .list a {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+  }
+}
