@@ -61,6 +61,13 @@ nav a:hover {
   margin-top: 30px;
 }
 
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 30px;
+}
+
 .button {
   background: $accent-deep;
   border: 1px solid $accent-deep;
@@ -137,6 +144,61 @@ nav a:hover {
   white-space: nowrap;
 }
 
+.resume-detail {
+  max-width: 860px;
+}
+
+.resume-detail a {
+  color: $accent-deep;
+  font-weight: 700;
+}
+
+.resume-heading {
+  margin-bottom: 28px;
+}
+
+.resume-heading h2 {
+  margin-bottom: 8px;
+}
+
+.resume-entry {
+  margin-top: 34px;
+}
+
+.resume-entry h3 {
+  border-bottom: 1px solid $line;
+  color: $accent-deep;
+  font-size: 0.92rem;
+  letter-spacing: 0;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.resume-row {
+  align-items: baseline;
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.resume-row span:last-child,
+.resume-row strong:last-child {
+  color: $muted-ink;
+  text-align: right;
+}
+
+.resume-detail ul {
+  color: $muted-ink;
+  margin: 10px 0 18px;
+  padding-left: 22px;
+}
+
+.resume-detail li + li {
+  margin-top: 6px;
+}
+
 .site-footer {
   border-top: 1px solid $line;
   margin-top: 30px;
@@ -168,5 +230,16 @@ nav a:hover {
     align-items: flex-start;
     flex-direction: column;
     gap: 6px;
+  }
+
+  .resume-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .resume-row span:last-child,
+  .resume-row strong:last-child {
+    text-align: left;
   }
 }

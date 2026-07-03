@@ -6,23 +6,138 @@ permalink: /resume/
 
 <section class="page-header">
   <p class="eyebrow">Resume</p>
-  <h1>Resume</h1>
-  <p class="lede">A focused overview of education, experience, skills, and credentials.</p>
+  <h1>Alexander Jenkins</h1>
+  <p class="lede">Finance and accounting double major, CFA Level I Candidate, and CPA-focused student building experience in wealth management, tax planning, and investment analysis.</p>
+  <div class="resume-actions">
+    <a class="button" href="{{ '/assets/Jenkins - Resume.pdf' | relative_url }}" download="Jenkins - Resume.pdf">Alexander Jenkins' Resume</a>
+  </div>
 </section>
 
 <section class="section">
   <div class="grid">
     <article class="card">
       <h3>Education</h3>
-      <p>Add your degree, school, graduation timeline, relevant coursework, and academic highlights.</p>
+      <p>Finance and Accounting double major studying at High Point University in High Point, North Carolina. Graduating in May 2027 with high honors, making the Dean's List every semester. Business Honors student known as a Business Fellow and recipient of the CFA Program Student Scholarship to take the Level I exam.</p>
     </article>
     <article class="card">
       <h3>Experience</h3>
-      <p>Add internships, jobs, projects, leadership roles, and measurable outcomes.</p>
+      <p>Targeted internship experience in wealth management and financial analysis, focusing on client portfolio functions, tax considerations, and rigorous investment evaluation.</p>
     </article>
     <article class="card">
       <h3>Skills</h3>
-      <p>Add finance, accounting, modeling, Excel, research, reporting, and software skills.</p>
+      <p>Financial modeling, investment analysis, reporting, advanced Excel, tax analysis, individual tax return preparation, and preparation for rigorous professional credentials including the CFA curriculum.</p>
     </article>
+  </div>
+</section>
+
+<section class="section resume-detail">
+  <div class="resume-heading">
+    <h2>Alexander J. Jenkins</h2>
+    <p><a href="mailto:alex.jenkins310@gmail.com">alex.jenkins310@gmail.com</a> | 412-926-2916 | Pittsburgh, PA | <a href="https://www.linkedin.com/in/alexjenkins04">linkedin.com/in/alexjenkins04</a></p>
+  </div>
+
+  <p>High-achieving Finance and Accounting double major and CFA Level I Candidate. Proficient in advanced financial modeling and data analysis within Excel. Intending to pursue CPA licensure to deliver precise analytical solutions backed by a solid background in tax and financial modeling.</p>
+
+  <div class="resume-entry">
+    <h3>Education</h3>
+    <div class="resume-row">
+      <strong>B.S.B.A., Finance &amp; Accounting</strong>
+      <strong>May 2027</strong>
+    </div>
+    <div class="resume-row">
+      <span>High Point University</span>
+      <span>High Point, NC</span>
+    </div>
+    <ul>
+      <li>GPA: 3.9/4.0 | Total anticipated credits: 150, CPA-eligible | Dean's List, 2023-2026.</li>
+      <li>Finance and Accounting double major graduating in May 2027 with high honors.</li>
+      <li>Presidential Scholar and Earl N. Phillips School of Business Honors Student, known as a Business Fellow.</li>
+      <li>Recipient of the CFA Program Student Scholarship to take the Level I exam.</li>
+    </ul>
+  </div>
+
+  <div class="resume-entry">
+    <h3>Professional Certifications</h3>
+    <div class="resume-row">
+      <strong>CFA - Chartered Financial Analyst Program</strong>
+      <strong>October 2025 - Present</strong>
+    </div>
+    <div class="resume-row">
+      <span>Level I Candidate, exam scheduled for November 2026</span>
+      <span>High Point, NC</span>
+    </div>
+
+    <div class="resume-row">
+      <strong>Bloomberg Professional Certifications</strong>
+      <strong>March 2026</strong>
+    </div>
+    <div class="resume-row">
+      <span>Bloomberg Market Concepts and Bloomberg Finance Fundamentals</span>
+      <span>High Point, NC</span>
+    </div>
+
+    <div class="resume-row">
+      <strong>Microsoft Office Specialist: Excel Associate, Office 2019</strong>
+      <strong>February 2024</strong>
+    </div>
+    <div class="resume-row">
+      <span>Passed exam</span>
+      <span>High Point, NC</span>
+    </div>
+  </div>
+
+  <div class="resume-entry">
+    <h3>Experience</h3>
+    <div class="resume-row">
+      <strong>Aufman Associates</strong>
+      <span>Sewickley, PA</span>
+    </div>
+    <div class="resume-row">
+      <strong>Tax &amp; Planning Intern</strong>
+      <strong>May 2026 - August 2026</strong>
+    </div>
+    <ul>
+      <li>Prepared and analyzed over 200 tax projections by directly reviewing tax returns and supporting documents.</li>
+      <li>Modeled Roth IRA conversion strategies by evaluating tax brackets to leverage current-year negative tax liabilities.</li>
+      <li>Optimized and automated complex tax calculation spreadsheets in Excel, reducing manual input errors.</li>
+    </ul>
+
+    <div class="resume-row">
+      <strong>Wealth Management Intern</strong>
+      <strong>May 2025 - August 2025</strong>
+    </div>
+    <ul>
+      <li>Collaborated with licensed CFA and CFP professionals serving clients in wealth management.</li>
+      <li>Developed and recommended comprehensive investment plans by understanding client goals.</li>
+      <li>Constructed a comprehensive tax planning Excel formula incorporating new tax laws.</li>
+      <li>Analyzed asset allocations for 230+ clients and prepared individualized memorandums outlining next steps.</li>
+    </ul>
+
+    <div class="resume-row">
+      <strong>Outlier</strong>
+      <span>Remote Work</span>
+    </div>
+    <div class="resume-row">
+      <strong>AI Response Trainer</strong>
+      <strong>July 2024 - March 2025</strong>
+    </div>
+    <ul>
+      <li>Enhanced next-generation AI models by providing detailed feedback and training inputs.</li>
+      <li>Evaluated and justified AI outputs to ensure optimal response accuracy.</li>
+      <li>Delivered critical subject-matter feedback to improve model reliability and consistency.</li>
+    </ul>
+  </div>
+
+  <div class="resume-entry">
+    <h3>Skills and Qualifications</h3>
+    <ul>
+      <li><strong>Courses:</strong> Corporate Finance, Advanced Accounting, Financial Analysis, Advanced Tax, Econometrics, and Audit.</li>
+      <li><strong>Technical:</strong> Excel, PowerPoint, Tableau, Black Diamond Wealth Solutions, and QuickBooks Online.</li>
+      <li><strong>Tax:</strong> Tax analysis, tax projection review, and individual tax return preparation.</li>
+      <li><strong>Other certificates:</strong> Coachability Certificate and Professional Assessment Certificate, High Point University.</li>
+      <li><strong>Leadership:</strong> Floyd T. Craven Investment Club Analyst Program.</li>
+      <li><strong>Honors and affiliations:</strong> Alpha Lambda Delta, Alpha Chi, and Delta Mu Delta.</li>
+      <li><strong>Awards:</strong> CFA Program Student Scholarship.</li>
+    </ul>
   </div>
 </section>
