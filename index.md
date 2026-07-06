@@ -3,17 +3,21 @@ layout: default
 title: Home
 ---
 
-<section class="hero">
-  <p class="eyebrow">Finance • Accounting • Valuation</p>
-  <h1>Alex Jenkins</h1>
-  <p class="lede">
-    Finance and accounting student building practical work across financial
-    analysis, reporting, valuation, and exam-driven research.
-  </p>
-  <div class="hero-actions">
-    <a class="button" href="{{ '/projects/' | relative_url }}">View Work</a>
-    <a class="button button-secondary" href="{{ '/about/' | relative_url }}">About</a>
+<section class="hero hero-with-media">
+  <div class="hero-copy">
+    <p class="eyebrow">Senior Finance &amp; Accounting Double Major Student</p>
+    <h1 class="hero-catchline">Executing high-volume financial workflows with an emphasis on analytical rigor, technical accounting, and decision-ready detail.</h1>
+    <p class="hero-bio">
+      I'm Alex Jenkins, a Finance and Accounting double major at High Point University focused on investment analysis, corporate valuation, and technical due diligence. My work bridges the gap between technical accounting and advanced financial modeling so strategic opportunities can be evaluated, refined, and executed.
+    </p>
+    <div class="hero-actions">
+      <a class="button" href="{{ '/projects/' | relative_url }}">View Projects</a>
+      <a class="button button-secondary" href="{{ '/resume/' | relative_url }}">Review Resume</a>
+    </div>
   </div>
+  <figure class="hero-portrait">
+    <img src="{{ '/assets/InvestmentClubHeadshot2.jpg' | relative_url }}" alt="Alex Jenkins professional headshot">
+  </figure>
 </section>
 
 <section class="section">
