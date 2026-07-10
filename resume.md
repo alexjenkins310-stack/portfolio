@@ -33,7 +33,7 @@ permalink: /resume/
 <section class="section resume-detail">
   <div class="resume-heading">
     <h2>Alexander J. Jenkins</h2>
-    <p><a href="mailto:alex.jenkins310@gmail.com">alex.jenkins310@gmail.com</a> | 412-926-2916 | Pittsburgh, PA | <a href="https://www.linkedin.com/in/alexjenkins04">linkedin.com/in/alexjenkins04</a></p>
+    <p><a href="mailto:alex.jenkins310@gmail.com">alex.jenkins310@gmail.com</a> | 412-926-2916 | Pittsburgh, PA | <a href="https://www.linkedin.com/in/alexjenkins04" target="_blank" rel="noopener noreferrer">linkedin.com/in/alexjenkins04</a></p>
   </div>
 
   <p>High-achieving Finance and Accounting double major and CFA Level I Candidate. Proficient in advanced financial modeling and data analysis within Excel. Intending to pursue CPA licensure to deliver precise analytical solutions backed by a solid background in tax and financial modeling.</p>
