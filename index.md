@@ -6,7 +6,11 @@ title: Home
 <section class="hero hero-with-media">
   <div class="hero-copy">
     <p class="eyebrow">Senior Finance &amp; Accounting Double Major Student</p>
-    <h1 class="hero-catchline">Executing high-volume financial workflows with an emphasis on analytical rigor, technical accounting, and decision-ready detail.</h1>
+    <h1 class="hero-catchline">
+      <span>Financial Analysis</span>
+      <span>Tax Strategy</span>
+      <span>Investment Research</span>
+    </h1>
     <p class="hero-bio">
       I'm Alex Jenkins, a Finance and Accounting double major at High Point University focused on investment analysis, corporate valuation, and technical due diligence. My work bridges the gap between technical accounting and advanced financial modeling so strategic opportunities can be evaluated, refined, and executed.
     </p>
