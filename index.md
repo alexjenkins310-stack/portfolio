@@ -27,16 +27,16 @@ title: Home
   </div>
   <div class="grid">
     <article class="card">
-      <h3>Financial Analysis</h3>
-      <p>Models, ratios, forecasts, and commentary that translate numbers into useful business judgment.</p>
+      <h3>Financial Analysis Presentation</h3>
+      <p>Models, ratios, forecasts, and commentary that translate numbers into a story.</p>
     </article>
     <article class="card">
-      <h3>Accounting Research</h3>
-      <p>Clear writeups on reporting standards, audit considerations, tax topics, and technical memos.</p>
+      <h3>Accounting Due Diligence</h3>
+      <p>Fundamental understanding of accounting principles with in-depth knowledge of financial presentation and personal tax.</p>
     </article>
     <article class="card">
       <h3>Exam Preparation</h3>
-      <p>CPA and CFA study artifacts, summaries, and practice projects that show steady command of the material.</p>
+      <p>CFA<sup>&reg;</sup> Level I Candidate intending to pursue CPA licensure, with the goal of completing all four exams by the end of 2027.</p>
     </article>
   </div>
 </section>
