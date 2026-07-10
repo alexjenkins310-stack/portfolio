@@ -16,7 +16,7 @@ title: Home
     </div>
   </div>
   <figure class="hero-portrait">
-    <img src="{{ '/assets/InvestmentClubHeadshot2.jpg' | relative_url }}" alt="Alex Jenkins professional headshot">
+    <img src="{{ '/assets/InvestmentClubHeadshot2%20copy.jpg' | relative_url }}" alt="Alex Jenkins professional headshot">
   </figure>
 </section>
 
