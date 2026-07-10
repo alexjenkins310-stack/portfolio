@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<article class="project-detail">
+  <a class="back-link" href="{{ '/projects/' | relative_url }}">&larr; Back to projects</a>
+
+  <header class="project-detail-header">
+    <p class="eyebrow">Selected Work</p>
+    <h1>{{ page.title }}</h1>
+    <p class="lede">{{ page.description }}</p>
+    <p class="project-byline">Prepared by <strong>{{ page.prepared_by | default: 'Alexander Jenkins' }}</strong></p>
+  </header>
+
+  <div class="project-detail-preview">
+    {% if page.preview_image %}
+      <img src="{{ page.preview_image | relative_url }}" alt="Preview of {{ page.title }}">
+    {% else %}
+      <span>Project preview image</span>
+    {% endif %}
+  </div>
+
+  <section class="project-description">
+    <h2>Project description</h2>
+    {{ content }}
+  </section>
+
+  <div class="project-actions" aria-label="Project files">
+    {% if page.download_url %}
+      <a class="button" href="{{ page.download_url | relative_url }}" download>Download Project</a>
+    {% else %}
+      <span class="button button-disabled" aria-disabled="true">Download Project</span>
+    {% endif %}
+
+    {% if page.review_url %}
+      <a class="button button-secondary" href="{{ page.review_url | relative_url }}" target="_blank" rel="noopener noreferrer">Review Project More Closely</a>
+    {% else %}
+      <span class="button button-secondary button-disabled" aria-disabled="true">Review Project More Closely</span>
+    {% endif %}
+  </div>
+</article>
