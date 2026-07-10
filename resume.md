@@ -7,9 +7,9 @@ permalink: /resume/
 <section class="page-header">
   <p class="eyebrow">Resume</p>
   <h1>Alexander Jenkins</h1>
-  <p class="lede">Finance and accounting double major, CFA Level I Candidate, and CPA-focused student building experience in wealth management, tax planning, and investment analysis.</p>
+  <p class="lede">Finance and accounting double major, CFA<sup>&reg;</sup> Level I Candidate, and CPA-focused student building experience in wealth management, tax planning, and investment analysis.</p>
   <div class="resume-actions">
-    <a class="button" href="{{ '/assets/Jenkins - Resume.pdf' | relative_url }}" download="Jenkins - Resume.pdf">Alexander Jenkins' Resume</a>
+    <a class="button" href="{{ '/assets/Jenkins - Resume.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Alexander Jenkins' Resume</a>
   </div>
 </section>
 
