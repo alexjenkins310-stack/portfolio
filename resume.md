@@ -13,6 +13,14 @@ permalink: /resume/
   </div>
 </section>
 
+<section class="section resume-approach">
+  <div class="section-heading">
+    <p class="eyebrow">Professional Approach</p>
+    <h2>Careful analysis, clearly communicated.</h2>
+    <p>I value clear assumptions, clean schedules, evidence-backed conclusions, and communication that respects the reader.</p>
+  </div>
+</section>
+
 <section class="section">
   <div class="grid">
     <article class="card">

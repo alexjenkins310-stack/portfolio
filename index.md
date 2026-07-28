@@ -17,7 +17,7 @@ title: Home
     <div class="hero-actions">
       <a class="button" href="{{ '/projects/' | relative_url }}">View Projects</a>
       <a class="button button-secondary" href="{{ '/resume/' | relative_url }}">Review Resume</a>
-      <a class="button button-secondary" href="{{ '/about/#contact' | relative_url }}">Contact</a>
+      <a class="button button-secondary" href="{{ '/contact/' | relative_url }}">Contact</a>
     </div>
   </div>
   <figure class="hero-portrait">
