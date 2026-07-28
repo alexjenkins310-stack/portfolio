@@ -7,7 +7,7 @@ permalink: /resume/
 <section class="page-header">
   <p class="eyebrow">Resume</p>
   <h1>Alexander Jenkins</h1>
-  <p class="lede">Finance and accounting double major, CFA<sup>&reg;</sup> Level I Candidate, and CPA-focused student building experience in wealth management, tax planning, and investment analysis.</p>
+  <p class="lede">Finance and accounting double major, CFA<sup>&reg;</sup> Program Level I Candidate, and CPA-focused student building experience in wealth management, tax planning, and investment analysis.</p>
   <div class="resume-actions">
     <a class="button" href="{{ '/assets/Jenkins - Resume.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Alexander Jenkins' Resume</a>
   </div>
@@ -25,7 +25,7 @@ permalink: /resume/
     </article>
     <article class="card">
       <h3>Skills</h3>
-      <p>Financial modeling, investment analysis, reporting, advanced Excel, tax analysis, individual tax return preparation, and preparation for rigorous professional credentials including the CFA curriculum.</p>
+      <p>Financial modeling, investment analysis, reporting, advanced Excel, tax analysis, individual tax return preparation, and preparation for rigorous professional credentials including the CFA Program curriculum.</p>
     </article>
   </div>
 </section>
@@ -33,10 +33,10 @@ permalink: /resume/
 <section class="section resume-detail">
   <div class="resume-heading">
     <h2>Alexander J. Jenkins</h2>
-    <p><a href="mailto:alex.jenkins310@gmail.com">alex.jenkins310@gmail.com</a> | 412-926-2916 | Pittsburgh, PA | <a href="https://www.linkedin.com/in/alexjenkins04" target="_blank" rel="noopener noreferrer">linkedin.com/in/alexjenkins04</a></p>
+    <p><a href="mailto:alex.jenkins310@gmail.com">alex.jenkins310@gmail.com</a> | Pittsburgh, PA | <a href="https://www.linkedin.com/in/alexjenkins04" target="_blank" rel="noopener noreferrer">linkedin.com/in/alexjenkins04</a></p>
   </div>
 
-  <p>High-achieving Finance and Accounting double major and CFA Level I Candidate. Proficient in advanced financial modeling and data analysis within Excel. Intending to pursue CPA licensure to deliver precise analytical solutions backed by a solid background in tax and financial modeling.</p>
+  <p>High-achieving Finance and Accounting double major and CFA Program Level I Candidate. Proficient in advanced financial modeling and data analysis within Excel. Intending to pursue CPA licensure to deliver precise analytical solutions backed by a solid background in tax and financial modeling.</p>
 
   <div class="resume-entry">
     <h3>Education</h3>
@@ -59,11 +59,11 @@ permalink: /resume/
   <div class="resume-entry">
     <h3>Professional Certifications</h3>
     <div class="resume-row">
-      <strong>CFA - Chartered Financial Analyst Program</strong>
+      <strong>CFA Program</strong>
       <strong>October 2025 - Present</strong>
     </div>
     <div class="resume-row">
-      <span>Level I Candidate, exam scheduled for November 2026</span>
+      <span>CFA Program Level I Candidate, exam scheduled for November 2026</span>
       <span>High Point, NC</span>
     </div>
 
@@ -107,7 +107,7 @@ permalink: /resume/
       <strong>May 2025 - August 2025</strong>
     </div>
     <ul>
-      <li>Collaborated with licensed CFA and CFP professionals serving clients in wealth management.</li>
+      <li>Collaborated with CFA charterholders and CFP professionals serving clients in wealth management.</li>
       <li>Developed and recommended comprehensive investment plans by understanding client goals.</li>
       <li>Constructed a comprehensive tax planning Excel formula incorporating new tax laws.</li>
       <li>Analyzed asset allocations for 230+ clients and prepared individualized memorandums outlining next steps.</li>

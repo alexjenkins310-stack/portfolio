@@ -5,11 +5,11 @@ title: Home
 
 <section class="hero hero-with-media">
   <div class="hero-copy">
-    <p class="eyebrow">Senior Finance &amp; Accounting Double Major Student</p>
+    <p class="eyebrow">Finance and Accounting</p>
     <h1 class="hero-catchline">
       <span>Financial Analysis</span>
-      <span>Tax Strategy</span>
-      <span>Investment Research</span>
+      <span>Tax Planning</span>
+      <span>Portfolio Analysis</span>
     </h1>
     <p class="hero-bio">
       I'm Alex Jenkins, a Finance and Accounting double major at High Point University focused on investment analysis, corporate valuation, and technical due diligence. My work bridges the gap between technical accounting and advanced financial modeling so strategic opportunities can be evaluated, refined, and executed.
@@ -17,6 +17,7 @@ title: Home
     <div class="hero-actions">
       <a class="button" href="{{ '/projects/' | relative_url }}">View Projects</a>
       <a class="button button-secondary" href="{{ '/resume/' | relative_url }}">Review Resume</a>
+      <a class="button button-secondary" href="{{ '/about/#contact' | relative_url }}">Contact</a>
     </div>
   </div>
   <figure class="hero-portrait">
@@ -40,7 +41,7 @@ title: Home
     </article>
     <article class="card">
       <h3>Exam Preparation</h3>
-      <p>CFA<sup>&reg;</sup> Level I Candidate intending to pursue CPA licensure, with the goal of completing all four exams by the end of 2027.</p>
+      <p>CFA<sup>&reg;</sup> Program Level I Candidate intending to pursue CPA licensure, with the goal of completing all four CPA Exam sections by the end of 2027.</p>
     </article>
   </div>
 </section>
