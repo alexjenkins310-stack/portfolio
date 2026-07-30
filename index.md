@@ -15,8 +15,8 @@ title: Home
       I’m Alex Jenkins, a Finance and Accounting double major at High Point University focused on understanding advanced financial concepts through rigorous coursework and professional exam preparation. I combine accounting fundamentals with careful financial due diligence researching documents in detail to get a clear understanding to support conclusions.
     </p>
     <div class="hero-actions">
-      <a class="button button-secondary" href="{{ '/projects/' | relative_url }}">View Projects</a>
       <a class="button" href="{{ '/resume/' | relative_url }}">Review Resume</a>
+      <a class="button button-secondary" href="{{ '/projects/' | relative_url }}">View Projects</a>
       <a class="button button-secondary" href="{{ '/contact/' | relative_url }}">Contact</a>
     </div>
   </div>

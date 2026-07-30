@@ -166,7 +166,7 @@ nav a:hover {
 }
 
 .professional-development {
-  align-items: baseline;
+  align-items: center;
   border: 1px solid $line;
   border-radius: 8px;
   display: grid;
@@ -179,6 +179,14 @@ nav a:hover {
 .professional-development h3,
 .professional-development p {
   margin-bottom: 0;
+}
+
+.professional-development h3 {
+  text-align: center;
+}
+
+.professional-development p {
+  text-align: left;
 }
 
 .contact-card a {
