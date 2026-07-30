@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Project Title Five
+title: Investment Club Research & Leadership
 order: 5
 description: Add a concise overview explaining the purpose, scope, and outcome of this project.
 prepared_by: Alexander Jenkins

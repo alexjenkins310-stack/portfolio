@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Project Title Six
+title: Client Portfolio Strategy & IPS
 order: 6
 description: Add a concise overview explaining the purpose, scope, and outcome of this project.
 prepared_by: Alexander Jenkins
