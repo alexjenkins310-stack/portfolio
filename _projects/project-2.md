@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Project Title Two
+title: Equity Research & Valuation
 order: 2
 description: Add a concise overview explaining the purpose, scope, and outcome of this project.
 prepared_by: Alexander Jenkins

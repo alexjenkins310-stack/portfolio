@@ -165,6 +165,22 @@ nav a:hover {
   margin-bottom: 0;
 }
 
+.professional-development {
+  align-items: baseline;
+  border: 1px solid $line;
+  border-radius: 8px;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(190px, 0.7fr) minmax(0, 2.3fr);
+  margin-top: 18px;
+  padding: 20px 24px;
+}
+
+.professional-development h3,
+.professional-development p {
+  margin-bottom: 0;
+}
+
 .contact-card a {
   color: $accent-deep;
   font-weight: 700;
@@ -264,15 +280,41 @@ nav a:hover {
   justify-content: space-between;
   gap: 24px;
   padding: 18px 20px;
+  transition: background-color 160ms ease;
+}
+
+.list a:hover,
+.list a:focus-visible {
+  background: $surface;
+}
+
+.list a:focus-visible {
+  outline: 3px solid $soft-blue;
+  outline-offset: -3px;
 }
 
 .list a + a {
   border-top: 1px solid $line;
 }
 
-.list strong {
+.list-copy {
+  display: grid;
+  gap: 3px;
+}
+
+.list-copy strong {
+  color: $ink;
+  font-size: 1rem;
+}
+
+.list-copy span {
+  color: $muted-ink;
+}
+
+.list-arrow {
   color: $accent;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
+  font-weight: 700;
   white-space: nowrap;
 }
 
@@ -294,6 +336,10 @@ nav a:hover {
   display: block;
   overflow: hidden;
   transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.project-card[id] {
+  scroll-margin-top: 100px;
 }
 
 .project-card:hover,
@@ -467,6 +513,15 @@ nav a:hover {
   margin-bottom: 0;
 }
 
+.footer-links {
+  align-items: center;
+  gap: 9px;
+}
+
+.footer-links span {
+  color: $muted-ink;
+}
+
 @media (max-width: 760px) {
   .site-header,
   .site-footer {
@@ -494,6 +549,12 @@ nav a:hover {
     grid-template-columns: 1fr;
   }
 
+  .professional-development {
+    gap: 8px;
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
   .contact-layout {
     grid-template-columns: 1fr;
   }
@@ -503,9 +564,12 @@ nav a:hover {
   }
 
   .list a {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 6px;
+    gap: 16px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    gap: 8px;
   }
 
   .resume-row {

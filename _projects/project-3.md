@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Project Title Three
+title: Financial Data Visualization
 order: 3
 description: Add a concise overview explaining the purpose, scope, and outcome of this project.
 prepared_by: Alexander Jenkins

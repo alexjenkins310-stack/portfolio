@@ -14,7 +14,7 @@ permalink: /projects/
   <div class="project-gallery">
     {% assign portfolio_projects = site.projects | sort: 'order' %}
     {% for project in portfolio_projects %}
-      <a class="project-card" href="{{ project.url | relative_url }}" aria-label="Open {{ project.title }}">
+      <a class="project-card" id="project-{{ project.order }}" href="{{ project.url | relative_url }}" aria-label="Open {{ project.title }}">
         <div class="project-card-preview">
           {% if project.preview_image %}
             <img src="{{ project.preview_image | relative_url }}" alt="Preview of {{ project.title }}">
