@@ -9,7 +9,7 @@ permalink: /resume/
   <h1>Alexander Jenkins</h1>
   <p class="lede">Finance and accounting double major, CFA<sup>&reg;</sup> Program Level I Candidate, and CPA-focused student building experience in wealth management, tax planning, and investment analysis.</p>
   <div class="resume-actions">
-    <a class="button" href="{{ '/assets/Jenkins - Resume.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Alexander Jenkins' Resume</a>
+    <a class="button" href="{{ '/assets/Jenkins - Resume - Fall 2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Alexander Jenkins' Resume</a>
   </div>
 </section>
 
