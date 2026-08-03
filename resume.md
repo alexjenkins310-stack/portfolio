@@ -11,7 +11,7 @@ permalink: /resume/
   <div class="resume-actions">
     <a class="button" href="{{ '/assets/Jenkins - Resume - Fall 2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Alexander Jenkins' Resume</a>
   </div>
-  <iframe src="{{ '/assets/jenkins - resume - fall 2026.pdf' | relative_url }}" title="Alexander Jenkins Resume" style="width: 100%; min-height: 900px; border: 1px solid #d0d7de; border-radius: 8px; margin-top: 2rem;" loading="lazy"></iframe>
+  <iframe src="{{ '/assets/Jenkins - Resume - Fall 2026.pdf' | relative_url }}" title="Alexander Jenkins Resume" style="width: 100%; min-height: 900px; border: 1px solid #d0d7de; border-radius: 8px; margin-top: 2rem;" loading="lazy"></iframe>
 </section>
 
 <section class="section resume-approach">
