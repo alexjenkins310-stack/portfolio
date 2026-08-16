@@ -15,9 +15,16 @@ permalink: /projects/
     {% assign portfolio_projects = site.projects | sort: 'order' %}
     {% for project in portfolio_projects %}
       <a class="project-card" id="project-{{ project.order }}" href="{{ project.url | relative_url }}" aria-label="Open {{ project.title }}">
-        <div class="project-card-preview">
+        <div class="project-card-preview{% if project.preview_fit == 'contain' %} project-card-preview-contain{% endif %}">
           {% if project.preview_image %}
-            <img src="{{ project.preview_image | relative_url }}" alt="Preview of {{ project.title }}">
+            <img
+              src="{{ project.preview_image | relative_url }}"
+              alt="{% if project.preview_alt %}{{ project.preview_alt }}{% else %}Preview of {{ project.title }}{% endif %}"
+              {% if project.preview_width %}width="{{ project.preview_width }}"{% endif %}
+              {% if project.preview_height %}height="{{ project.preview_height }}"{% endif %}
+              loading="lazy"
+              decoding="async"
+            >
           {% else %}
             <span>Project preview image</span>
           {% endif %}

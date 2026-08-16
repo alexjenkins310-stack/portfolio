@@ -2,40 +2,63 @@
 layout: default
 ---
 
-<article class="project-detail">
+<article class="project-detail{% if page.case_study %} project-case-study{% endif %}">
   <a class="back-link" href="{{ '/projects/' | relative_url }}">&larr; Back to projects</a>
 
   <header class="project-detail-header">
     <p class="eyebrow">Selected Work</p>
     <h1>{{ page.title }}</h1>
+    {% if page.project_meta %}
+      <p class="project-meta">{{ page.project_meta }}</p>
+    {% endif %}
     <p class="lede">{{ page.description }}</p>
     <p class="project-byline">Prepared by <strong>{{ page.prepared_by | default: 'Alexander Jenkins' }}</strong></p>
   </header>
 
-  <div class="project-detail-preview">
-    {% if page.preview_image %}
-      <img src="{{ page.preview_image | relative_url }}" alt="Preview of {{ page.title }}">
+  {% assign detail_image = page.detail_image | default: page.preview_image %}
+  <div class="project-detail-preview{% if page.detail_fit == 'contain' %} project-detail-preview-contain{% endif %}">
+    {% if detail_image %}
+      {% if page.detail_image_link %}
+        <a class="project-detail-image-link" href="{{ page.detail_image_link | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ page.detail_image_link_label | default: 'Open the project image at full size' }}">
+      {% endif %}
+      <img
+        src="{{ detail_image | relative_url }}"
+        alt="{% if page.detail_image_alt %}{{ page.detail_image_alt }}{% else %}Preview of {{ page.title }}{% endif %}"
+        {% if page.detail_image_width %}width="{{ page.detail_image_width }}"{% endif %}
+        {% if page.detail_image_height %}height="{{ page.detail_image_height }}"{% endif %}
+        decoding="async"
+      >
+      {% if page.detail_image_link %}
+        </a>
+      {% endif %}
     {% else %}
       <span>Project preview image</span>
     {% endif %}
   </div>
+  {% if page.detail_image_link and page.detail_image_link_text %}
+    <p class="project-detail-image-note"><a href="{{ page.detail_image_link | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.detail_image_link_text }} <span aria-hidden="true">&nearr;</span></a></p>
+  {% endif %}
 
-  <section class="project-description">
-    <h2>Project description</h2>
+  <div class="project-description">
+    {% unless page.hide_description_heading %}
+      <h2>Project description</h2>
+    {% endunless %}
     {{ content }}
-  </section>
-
-  <div class="project-actions" aria-label="Project files">
-    {% if page.download_url %}
-      <a class="button" href="{{ page.download_url | relative_url }}" download>Download Project</a>
-    {% else %}
-      <span class="button button-disabled" aria-disabled="true">Download Project</span>
-    {% endif %}
-
-    {% if page.review_url %}
-      <a class="button button-secondary" href="{{ page.review_url | relative_url }}" target="_blank" rel="noopener noreferrer">Review Project More Closely</a>
-    {% else %}
-      <span class="button button-secondary button-disabled" aria-disabled="true">Review Project More Closely</span>
-    {% endif %}
   </div>
+
+  {% unless page.hide_default_actions %}
+    <div class="project-actions" aria-label="Project files">
+      {% if page.download_url %}
+        <a class="button" href="{{ page.download_url | relative_url }}" download>Download Project</a>
+      {% else %}
+        <span class="button button-disabled" aria-disabled="true">Download Project</span>
+      {% endif %}
+
+      {% if page.review_url %}
+        <a class="button button-secondary" href="{{ page.review_url | relative_url }}" target="_blank" rel="noopener noreferrer">Review Project More Closely</a>
+      {% else %}
+        <span class="button button-secondary button-disabled" aria-disabled="true">Review Project More Closely</span>
+      {% endif %}
+    </div>
+  {% endunless %}
 </article>
