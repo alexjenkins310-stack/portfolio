@@ -9,9 +9,9 @@ permalink: /resume/
   <h1>Alexander Jenkins</h1>
   <p class="lede">Finance and accounting double major, CFA<sup>&reg;</sup> Program Level I Candidate, and CPA-focused student building experience in wealth management, tax planning, and investment analysis.</p>
   <div class="resume-actions">
-    <a class="button" href="{{ '/assets/Jenkins - Resume - Fall 2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Alexander Jenkins' Resume</a>
+    <a class="button" href="{{ '/assets/Jenkins - Resume - Master Website.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Alexander Jenkins' Resume</a>
   </div>
-  <iframe src="{{ '/assets/Jenkins - Resume - Fall 2026.pdf' | relative_url }}" title="Alexander Jenkins Resume" style="width: 100%; min-height: 900px; border: 1px solid #d0d7de; border-radius: 8px; margin-top: 2rem;" loading="lazy"></iframe>
+  <iframe src="{{ '/assets/Jenkins - Resume - Master Website.pdf' | relative_url }}" title="Alexander Jenkins Resume" style="width: 100%; min-height: 900px; border: 1px solid #d0d7de; border-radius: 8px; margin-top: 2rem;" loading="lazy"></iframe>
 </section>
 
 <section class="section resume-approach">
@@ -64,7 +64,51 @@ permalink: /resume/
   </div>
 
   <div class="resume-entry">
-    <h3>Professional Certifications</h3>
+    <h3>Experience</h3>
+    <div class="resume-row">
+      <strong>Aufman Associates</strong>
+      <span>Sewickley, PA</span>
+    </div>
+    <div class="resume-row">
+      <strong>Tax &amp; Planning Intern</strong>
+      <strong>May 2026 - August 2026</strong>
+    </div>
+    <ul>
+      <li>Built and analyzed 150+ client tax projections by reviewing tax returns, financial records, and supporting documents.</li>
+      <li>Modeled Roth IRA conversion strategies by evaluating marginal tax brackets and available tax capacity.</li>
+      <li>Developed and automated complex tax-calculation models in Excel, reducing manual inputs and potential errors.</li>
+      <li>Built a multi-year trust tax projection model incorporating Schedule B income distribution deductions.</li>
+    </ul>
+
+    <div class="resume-row">
+      <strong>Wealth Management Intern</strong>
+      <strong>May 2025 - August 2025</strong>
+    </div>
+    <ul>
+      <li>Collaborated with licensed CFA and CFP® professionals servicing wealth management clients.</li>
+      <li>Developed and recommended comprehensive investment plans by understanding client goals.</li>
+      <li>Developed an Excel-based tax planning model incorporating newly enacted tax legislation.</li>
+      <li>Analyzed asset allocations for 230+ clients and prepared individualized memorandums outlining next steps.</li>
+    </ul>
+
+    <div class="resume-row">
+      <strong>Floyd T. Craven Investment Club</strong>
+      <span>High Point, NC</span>
+    </div>
+    <div class="resume-row">
+      <strong>Executive Committee Member – Analyst Program</strong>
+      <strong>August 2024 - September 2025</strong>
+    </div>
+    <ul>
+      <li>Analyzed companies and financial statements to support investment decisions for an approximately $400,000 student-managed portfolio.</li>
+      <li>Developed and presented equity recommendations to club members and business school faculty.</li>
+      <li>Coordinated research for the inaugural Analyst Program and represented the club at Student Senate meetings.</li>
+      <li>Monitored portfolio holdings, company developments, and market conditions to support buy, hold, and sell discussions.</li>
+    </ul>
+  </div>
+
+  <div class="resume-entry">
+    <h3>Credentials &amp; Certifications</h3>
     <div class="resume-row">
       <strong>CFA Program</strong>
       <strong>October 2025 - Present</strong>
@@ -94,70 +138,11 @@ permalink: /resume/
   </div>
 
   <div class="resume-entry">
-    <h3>Experience</h3>
-    <div class="resume-row">
-      <strong>Aufman Associates</strong>
-      <span>Sewickley, PA</span>
-    </div>
-    <div class="resume-row">
-      <strong>Tax &amp; Planning Intern</strong>
-      <strong>May 2026 - August 2026</strong>
-    </div>
-    <ul>
-      <li>Prepared and analyzed 150+ tax projections by reviewing tax returns and supporting documents.</li>
-      <li>Modeled Roth IRA conversion strategies by evaluating marginal tax brackets and available tax capacity.</li>
-      <li>Optimized and automated complex tax calculation spreadsheets in Excel reducing manual input errors.</li>
-      <li>Built a one-year trust tax model incorporating Schedule B income distribution deductions.</li>
-    </ul>
-
-    <div class="resume-row">
-      <strong>Wealth Management Intern</strong>
-      <strong>May 2025 - August 2025</strong>
-    </div>
-    <ul>
-      <li>Collaborated with licensed CFA and CFP® professionals servicing wealth management clients.</li>
-      <li>Developed and recommended comprehensive investment plans by understanding client goals.</li>
-      <li>Constructed a comprehensive tax planning Excel formula incorporating newly passed tax laws.</li>
-      <li>Analyzed asset allocations for 230+ clients and prepared individualized memorandums outlining next steps.</li>
-    </ul>
-
-    <div class="resume-row">
-      <strong>Outlier</strong>
-      <span>Remote Work</span>
-    </div>
-    <div class="resume-row">
-      <strong>AI Response Trainer</strong>
-      <strong>July 2024 - March 2025</strong>
-    </div>
-    <ul>
-      <li>Reviewed AI-generated responses for accuracy, clarity, relevance, and adherence to project guidelines.</li>
-      <li>Provided detailed written feedback and corrected outputs to improve response quality and consistency.</li>
-      <li>Applied subject-matter judgment to identify errors, explain conclusions, and support model training.</li>
-    </ul>
-
-    <div class="resume-row">
-      <strong>Floyd T. Craven Investment Club</strong>
-      <span>High Point, NC</span>
-    </div>
-    <div class="resume-row">
-      <strong>Executive Committee Member – Analyst Program</strong>
-      <strong>August 2024 - September 2025</strong>
-    </div>
-    <ul>
-      <li>Researched companies by reviewing financial statements for a student-managed portfolio of approximately $400,000.</li>
-      <li>Developed and presented equity recommendations to club members and business school faculty.</li>
-      <li>Coordinated research for the inaugural Analyst Program and represented the club at Student Senate meetings.</li>
-      <li>Monitored portfolio holdings and market developments to support buy, hold, and sell discussions.</li>
-    </ul>
-  </div>
-
-  <div class="resume-entry">
     <h3>Skills and Qualifications</h3>
     <ul>
       <li><strong>Courses:</strong> Corporate Finance, Advanced Accounting, Financial Analysis, Advanced Tax, Econometrics, and Audit.</li>
       <li><strong>Technical:</strong> Excel, PowerPoint, Tableau, Black Diamond Wealth Solutions, and QuickBooks Online.</li>
       <li><strong>Tax:</strong> Tax analysis, tax projection review, and individual tax return preparation.</li>
-      <li><strong>Other certificates:</strong> Coachability Certificate and Professional Assessment Certificate, High Point University.</li>
       <li><strong>Honors and affiliations:</strong> Alpha Lambda Delta, Alpha Chi, and Delta Mu Delta.</li>
       <li><strong>Awards:</strong> CFA Program Student Scholarship.</li>
     </ul>
