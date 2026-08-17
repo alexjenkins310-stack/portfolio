@@ -1,9 +1,196 @@
 ---
 layout: project
-title: Equity Research & Valuation
+title: McDonald’s Equity Research & Valuation
 order: 2
-description: Add a concise overview explaining the purpose, scope, and outcome of this project.
+description: A multi-method equity valuation and Bloomberg technical analysis of McDonald’s Corporation, combining long-term fundamental value with near-term market signals to support a HOLD recommendation.
 prepared_by: Alexander Jenkins
+project_meta: Fundamental Valuation &middot; Bloomberg Technical Analysis &middot; Investment Research
+preview_image: /assets/MCD Preview Image.png
+preview_alt: McDonald’s equity research and valuation summary showing market price, HOLD recommendation, valuation results, and key takeaways
+preview_width: 1536
+preview_height: 1024
+preview_fit: contain
+hide_detail_image: true
+case_study: true
+hide_description_heading: true
+hide_default_actions: true
 ---
 
-Add the full project description here, including the question addressed, the analysis performed, the tools used, and the final conclusion.
+<section class="case-study-section">
+  <h2>Project Overview</h2>
+  <p>I evaluated McDonald’s using multiple fundamental valuation methodologies and technical indicators to determine whether the company’s market price was supported by its underlying value.</p>
+  <p>The analysis used several valuation methods to estimate McDonald’s intrinsic value, then compared those results with technical indicators from Bloomberg Terminal. This allowed me to identify where fundamental and technical signals supported or contradicted one another and use those findings to form an overall investment recommendation.</p>
+
+  <dl class="case-study-facts" aria-label="Project details">
+    <div class="case-study-fact">
+      <dt>Company</dt>
+      <dd>McDonald’s Corporation (NYSE: MCD)</dd>
+    </div>
+    <div class="case-study-fact">
+      <dt>Analysis Period</dt>
+      <dd>March 19&ndash;22, 2026</dd>
+    </div>
+    <div class="case-study-fact">
+      <dt>Market Price</dt>
+      <dd>$308.85</dd>
+    </div>
+    <div class="case-study-fact">
+      <dt>Final Recommendation</dt>
+      <dd>HOLD</dd>
+    </div>
+  </dl>
+
+  <div class="case-study-subsection">
+    <h3>Tools &amp; Methods</h3>
+    <ul class="case-study-feature-list">
+      <li>Microsoft Excel</li>
+      <li>Bloomberg Terminal</li>
+      <li>Morningstar</li>
+      <li>SEC EDGAR</li>
+      <li>CAPM</li>
+      <li>Dividend Discount Models</li>
+      <li>Free Cash Flow</li>
+      <li>Residual Income</li>
+      <li>Relative Valuation</li>
+    </ul>
+  </div>
+</section>
+
+<section class="case-study-section">
+  <h2>Valuation Analysis</h2>
+
+  <div class="case-study-subsection">
+    <h3>Comparing Multiple Approaches</h3>
+    <p>Rather than relying on a single valuation methodology, I analyzed McDonald’s using several approaches to understand how different assumptions affected implied equity value.</p>
+
+    <div class="valuation-table-wrapper" role="region" aria-label="Implied McDonald’s value by valuation method" tabindex="0">
+      <table class="valuation-table">
+        <thead>
+          <tr>
+            <th scope="col">Valuation Method</th>
+            <th scope="col">Implied Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Constant Growth DDM</th>
+            <td>$225.64</td>
+          </tr>
+          <tr>
+            <th scope="row">Non-Constant Growth DDM</th>
+            <td>$230.94</td>
+          </tr>
+          <tr>
+            <th scope="row">H-Model</th>
+            <td>$281.54</td>
+          </tr>
+          <tr>
+            <th scope="row">Free Cash Flow</th>
+            <td>$430.66</td>
+          </tr>
+          <tr>
+            <th scope="row">Residual Income</th>
+            <td>$364.65</td>
+          </tr>
+          <tr>
+            <th scope="row">P/E</th>
+            <td>$335.94</td>
+          </tr>
+          <tr>
+            <th scope="row">P/Sales</th>
+            <td>$325.49</td>
+          </tr>
+          <tr>
+            <th scope="row">P/Cash Flow</th>
+            <td>$346.19</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <p>The valuation methods produced a wide range of implied values. Dividend-based approaches generally suggested a valuation below market price, while free cash flow, residual income, and relative valuation methods indicated potential upside.</p>
+  <p>This dispersion reinforced the importance of understanding the assumptions and sensitivities underlying each valuation model rather than relying on a single calculated price.</p>
+</section>
+
+<section class="case-study-section">
+  <h2>Technical Analysis</h2>
+  <p>I used Bloomberg Terminal to supplement the fundamental analysis with an evaluation of McDonald’s historical price behavior and technical indicators.</p>
+
+  <div class="case-study-subsection">
+    <h3>The Review Included</h3>
+    <ul class="case-study-feature-list">
+      <li>Head-and-shoulders patterns</li>
+      <li>Price-channel analysis</li>
+      <li>50, 100, and 200-day moving averages</li>
+      <li>Bollinger Bands</li>
+      <li>Fibonacci retracement levels</li>
+    </ul>
+  </div>
+
+  <p class="case-study-followup">Most of the technical indicators reflected bearish near-term momentum. At the same time, Fibonacci analysis showed the stock approaching an important support level, creating a more mixed technical picture.</p>
+
+  <figure class="case-study-figure case-study-figure-wide">
+    <a class="case-study-figure-frame" href="{{ '/assets/Fibonacci Bloomberg Terminal.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open the Bloomberg Terminal Fibonacci retracement analysis at full size">
+      <img src="{{ '/assets/Fibonacci Bloomberg Terminal.png' | relative_url }}" alt="Bloomberg Terminal price chart for McDonald’s showing Fibonacci retracement levels and trading volume from March 2025 through March 2026" width="1838" height="797" loading="lazy" decoding="async">
+    </a>
+    <figcaption>
+      <span>Bloomberg Terminal Fibonacci Retracement Analysis</span>
+      <a class="case-study-figure-link" href="{{ '/assets/Fibonacci Bloomberg Terminal.png' | relative_url }}" target="_blank" rel="noopener noreferrer">Open full-size image <span aria-hidden="true">&nearr;</span></a>
+    </figcaption>
+  </figure>
+</section>
+
+<section class="case-study-section">
+  <h2>Key Assumptions</h2>
+  <p>Valuation assumptions included McDonald’s historical growth, a market-based required return calculated using CAPM, and a long-term growth assumption.</p>
+  <p>Because McDonald’s had negative shareholders’ equity, I did not rely on the sustainable growth rate as a meaningful input. I instead evaluated historical growth and used a more conservative long-term growth assumption.</p>
+  <p>The analysis also considered how changes in growth and required return assumptions could materially affect calculated intrinsic value.</p>
+</section>
+
+<section class="case-study-section">
+  <h2>Investment Conclusion</h2>
+
+  <div class="investment-recommendation" aria-label="Final investment recommendation: Hold">
+    <div>
+      <span>Final Recommendation</span>
+      <strong>HOLD</strong>
+    </div>
+    <p>Market price at analysis: <strong>$308.85</strong></p>
+  </div>
+
+  <p>The fundamental and technical analyses produced conflicting signals.</p>
+  <p>Several fundamental valuation methods, including free cash flow, residual income, and relative valuation, produced implied values above McDonald’s $308.85 market price and suggested potential upside. Dividend-based models produced more conservative estimates below the market price.</p>
+  <p>Technical analysis was generally more bearish, with price-channel behavior, moving averages, Bollinger Bands, and other indicators suggesting weaker near-term momentum.</p>
+  <p>Given the divergence between longer-term fundamental value and shorter-term technical conditions, I concluded that a HOLD recommendation was the most appropriate at the time of analysis.</p>
+</section>
+
+<section class="case-study-section">
+  <h2>Final Analysis</h2>
+  <p>The document below contains the detailed findings, model outputs, technical-analysis discussion, assumptions, and final investment recommendation from the project.</p>
+
+  <div class="case-study-pdf">
+    <div class="case-study-pdf-actions">
+      <a class="button button-secondary" href="{{ '/assets/JENKINS - Stock Analysis Final Paper ONLY.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Open Final Paper (PDF) <span aria-hidden="true">&nearr;</span></a>
+    </div>
+    <iframe src="{{ '/assets/JENKINS - Stock Analysis Final Paper ONLY.pdf' | relative_url }}" title="McDonald’s Stock Analysis Final Paper" loading="lazy"></iframe>
+    <p class="case-study-pdf-fallback">If the embedded viewer is unavailable, <a href="{{ '/assets/JENKINS - Stock Analysis Final Paper ONLY.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">open the final paper in a new tab</a>.</p>
+  </div>
+</section>
+
+<section class="case-study-section">
+  <h2>Skills Demonstrated</h2>
+  <ul class="case-study-skill-list" aria-label="Skills demonstrated in this project">
+    <li>Equity Valuation</li>
+    <li>Financial Modeling</li>
+    <li>Investment Research</li>
+    <li>Bloomberg Terminal</li>
+    <li>Technical Analysis</li>
+    <li>Financial Analysis</li>
+  </ul>
+</section>
+
+<aside class="project-contact-cta" aria-label="Discuss the McDonald’s Equity Research and Valuation project">
+  <a class="button" href="{{ '/contact/' | relative_url }}">Contact Me</a>
+  <p>Interested in discussing my work? Contact me to learn more about the analysis and valuation methodology.</p>
+</aside>

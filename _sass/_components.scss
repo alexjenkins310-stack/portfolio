@@ -566,6 +566,92 @@ nav a:hover {
   padding: 13px 0;
 }
 
+.case-study-facts {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 34px 0 0;
+}
+
+.case-study-fact {
+  background: $surface;
+  border: 1px solid $line;
+  border-radius: 8px;
+  padding: 18px 20px;
+}
+
+.case-study-fact dt {
+  color: $accent;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.case-study-fact dd {
+  color: $ink;
+  font-size: 1.02rem;
+  font-weight: 700;
+  margin: 5px 0 0;
+}
+
+.valuation-table-wrapper {
+  border: 1px solid $line;
+  border-radius: 8px;
+  margin: 26px 0 34px;
+  max-width: 780px;
+  overflow-x: auto;
+}
+
+.valuation-table-wrapper:focus-visible {
+  outline: 3px solid $soft-blue;
+  outline-offset: 3px;
+}
+
+.valuation-table {
+  border-collapse: collapse;
+  min-width: 520px;
+  width: 100%;
+}
+
+.valuation-table th,
+.valuation-table td {
+  border-bottom: 1px solid $line;
+  color: $ink;
+  padding: 13px 18px;
+  text-align: left;
+}
+
+.valuation-table thead th {
+  background: $accent-deep;
+  color: $surface;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.valuation-table thead th:last-child,
+.valuation-table td:last-child {
+  text-align: right;
+}
+
+.valuation-table tbody th {
+  font-weight: 600;
+}
+
+.valuation-table tbody tr:nth-child(even) {
+  background: $surface-muted;
+}
+
+.valuation-table tbody tr:last-child th,
+.valuation-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.case-study-followup {
+  margin-top: 34px;
+}
+
 .case-study-figure {
   margin: 44px 0 0;
 }
@@ -614,6 +700,10 @@ a.case-study-figure-frame:focus-visible {
   width: 100%;
 }
 
+.case-study-figure-wide .case-study-figure-frame img {
+  width: 100%;
+}
+
 .case-study-figure figcaption {
   align-items: baseline;
   color: $muted-ink;
@@ -632,6 +722,76 @@ a.case-study-figure-frame:focus-visible {
 
 .case-study-figure-link:hover,
 .case-study-figure-link:focus-visible {
+  text-decoration: underline;
+}
+
+.investment-recommendation {
+  align-items: center;
+  background: $surface-muted;
+  border: 1px solid $line;
+  border-left: 4px solid $accent;
+  border-radius: 8px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin: 0 0 30px;
+  max-width: 780px;
+  padding: 20px 24px;
+}
+
+.investment-recommendation div {
+  display: grid;
+  gap: 2px;
+}
+
+.investment-recommendation span {
+  color: $accent;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.investment-recommendation div > strong {
+  color: $accent-deep;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  line-height: 1;
+}
+
+.investment-recommendation p {
+  margin: 0;
+  text-align: right;
+}
+
+.case-study-pdf {
+  margin-top: 30px;
+}
+
+.case-study-pdf-actions {
+  margin-bottom: 16px;
+}
+
+.case-study-pdf iframe {
+  background: $surface;
+  border: 1px solid $line;
+  border-radius: 8px;
+  display: block;
+  min-height: 900px;
+  width: 100%;
+}
+
+.case-study-pdf-fallback {
+  font-size: 0.86rem;
+  margin: 10px 4px 0;
+}
+
+.case-study-pdf-fallback a {
+  color: $accent-deep;
+  font-weight: 700;
+}
+
+.case-study-pdf-fallback a:hover,
+.case-study-pdf-fallback a:focus-visible {
   text-decoration: underline;
 }
 
@@ -803,6 +963,10 @@ a.case-study-figure-frame:focus-visible {
     grid-template-columns: 1fr;
   }
 
+  .case-study-facts {
+    grid-template-columns: 1fr;
+  }
+
   .case-study-figure {
     margin-top: 34px;
   }
@@ -811,6 +975,20 @@ a.case-study-figure-frame:focus-visible {
     align-items: flex-start;
     flex-direction: column;
     gap: 5px;
+  }
+
+  .investment-recommendation {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .investment-recommendation p {
+    text-align: left;
+  }
+
+  .case-study-pdf iframe {
+    min-height: 680px;
   }
 
   .list a {

@@ -15,29 +15,31 @@ layout: default
     <p class="project-byline">Prepared by <strong>{{ page.prepared_by | default: 'Alexander Jenkins' }}</strong></p>
   </header>
 
-  {% assign detail_image = page.detail_image | default: page.preview_image %}
-  <div class="project-detail-preview{% if page.detail_fit == 'contain' %} project-detail-preview-contain{% endif %}">
-    {% if detail_image %}
-      {% if page.detail_image_link %}
-        <a class="project-detail-image-link" href="{{ page.detail_image_link | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ page.detail_image_link_label | default: 'Open the project image at full size' }}">
+  {% unless page.hide_detail_image %}
+    {% assign detail_image = page.detail_image | default: page.preview_image %}
+    <div class="project-detail-preview{% if page.detail_fit == 'contain' %} project-detail-preview-contain{% endif %}">
+      {% if detail_image %}
+        {% if page.detail_image_link %}
+          <a class="project-detail-image-link" href="{{ page.detail_image_link | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ page.detail_image_link_label | default: 'Open the project image at full size' }}">
+        {% endif %}
+        <img
+          src="{{ detail_image | relative_url }}"
+          alt="{% if page.detail_image_alt %}{{ page.detail_image_alt }}{% else %}Preview of {{ page.title }}{% endif %}"
+          {% if page.detail_image_width %}width="{{ page.detail_image_width }}"{% endif %}
+          {% if page.detail_image_height %}height="{{ page.detail_image_height }}"{% endif %}
+          decoding="async"
+        >
+        {% if page.detail_image_link %}
+          </a>
+        {% endif %}
+      {% else %}
+        <span>Project preview image</span>
       {% endif %}
-      <img
-        src="{{ detail_image | relative_url }}"
-        alt="{% if page.detail_image_alt %}{{ page.detail_image_alt }}{% else %}Preview of {{ page.title }}{% endif %}"
-        {% if page.detail_image_width %}width="{{ page.detail_image_width }}"{% endif %}
-        {% if page.detail_image_height %}height="{{ page.detail_image_height }}"{% endif %}
-        decoding="async"
-      >
-      {% if page.detail_image_link %}
-        </a>
-      {% endif %}
-    {% else %}
-      <span>Project preview image</span>
+    </div>
+    {% if page.detail_image_link and page.detail_image_link_text %}
+      <p class="project-detail-image-note"><a href="{{ page.detail_image_link | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.detail_image_link_text }} <span aria-hidden="true">&nearr;</span></a></p>
     {% endif %}
-  </div>
-  {% if page.detail_image_link and page.detail_image_link_text %}
-    <p class="project-detail-image-note"><a href="{{ page.detail_image_link | relative_url }}" target="_blank" rel="noopener noreferrer">{{ page.detail_image_link_text }} <span aria-hidden="true">&nearr;</span></a></p>
-  {% endif %}
+  {% endunless %}
 
   <div class="project-description">
     {% unless page.hide_description_heading %}
