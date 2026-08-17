@@ -571,12 +571,14 @@ nav a:hover {
   gap: 16px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   margin: 34px 0 0;
+  max-width: 780px;
 }
 
 .case-study-fact {
   background: $surface;
   border: 1px solid $line;
   border-radius: 8px;
+  box-shadow: $shadow;
   padding: 18px 20px;
 }
 
@@ -596,21 +598,18 @@ nav a:hover {
 }
 
 .valuation-table-wrapper {
+  background: $surface;
   border: 1px solid $line;
   border-radius: 8px;
+  box-shadow: $shadow;
   margin: 26px 0 34px;
   max-width: 780px;
   overflow-x: auto;
 }
 
-.valuation-table-wrapper:focus-visible {
-  outline: 3px solid $soft-blue;
-  outline-offset: 3px;
-}
-
 .valuation-table {
   border-collapse: collapse;
-  min-width: 520px;
+  table-layout: fixed;
   width: 100%;
 }
 
@@ -633,6 +632,14 @@ nav a:hover {
 .valuation-table thead th:last-child,
 .valuation-table td:last-child {
   text-align: right;
+}
+
+.valuation-table th:first-child {
+  width: 68%;
+}
+
+.valuation-table th:last-child {
+  width: 32%;
 }
 
 .valuation-table tbody th {
@@ -965,6 +972,11 @@ a.case-study-figure-frame:focus-visible {
 
   .case-study-facts {
     grid-template-columns: 1fr;
+  }
+
+  .valuation-table th,
+  .valuation-table td {
+    padding: 11px 12px;
   }
 
   .case-study-figure {

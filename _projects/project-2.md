@@ -63,7 +63,7 @@ hide_default_actions: true
     <h3>Comparing Multiple Approaches</h3>
     <p>Rather than relying on a single valuation methodology, I analyzed McDonald’s using several approaches to understand how different assumptions affected implied equity value.</p>
 
-    <div class="valuation-table-wrapper" role="region" aria-label="Implied McDonald’s value by valuation method" tabindex="0">
+    <div class="valuation-table-wrapper">
       <table class="valuation-table">
         <thead>
           <tr>
@@ -173,7 +173,7 @@ hide_default_actions: true
     <div class="case-study-pdf-actions">
       <a class="button button-secondary" href="{{ '/assets/JENKINS - Stock Analysis Final Paper ONLY.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Open Final Paper (PDF) <span aria-hidden="true">&nearr;</span></a>
     </div>
-    <iframe src="{{ '/assets/JENKINS - Stock Analysis Final Paper ONLY.pdf' | relative_url }}" title="McDonald’s Stock Analysis Final Paper" loading="lazy"></iframe>
+    <iframe src="{{ '/assets/JENKINS - Stock Analysis Final Paper ONLY.pdf' | relative_url }}" title="McDonald’s Stock Analysis Final Paper" style="width: 100%; min-height: 900px; border: 1px solid #d0d7de; border-radius: 8px; margin-top: 2rem;" loading="lazy"></iframe>
     <p class="case-study-pdf-fallback">If the embedded viewer is unavailable, <a href="{{ '/assets/JENKINS - Stock Analysis Final Paper ONLY.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">open the final paper in a new tab</a>.</p>
   </div>
 </section>
