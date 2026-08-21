@@ -9,9 +9,9 @@ permalink: /resume/
   <h1>Alexander Jenkins</h1>
   <p class="lede">Finance and accounting double major, CFA<sup>&reg;</sup> Program Level I Candidate, and CPA-focused student building experience in wealth management, tax planning, and investment analysis.</p>
   <div class="resume-actions">
-    <a class="button" href="{{ '/assets/Jenkins - Resume - Master Website.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Alexander Jenkins' Resume</a>
+    <a class="button" href="{{ '/assets/Alexander_Jenkins_Resume_Portfolio.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Alexander Jenkins' Resume</a>
   </div>
-  <iframe src="{{ '/assets/Jenkins - Resume - Master Website.pdf' | relative_url }}" title="Alexander Jenkins Resume" style="width: 100%; min-height: 900px; border: 1px solid #d0d7de; border-radius: 8px; margin-top: 2rem;" loading="lazy"></iframe>
+  <iframe src="{{ '/assets/Alexander_Jenkins_Resume_Portfolio.pdf' | relative_url }}" title="Alexander Jenkins Resume" style="width: 100%; min-height: 900px; border: 1px solid #d0d7de; border-radius: 8px; margin-top: 2rem;" loading="lazy"></iframe>
 </section>
 
 <section class="section resume-approach">
