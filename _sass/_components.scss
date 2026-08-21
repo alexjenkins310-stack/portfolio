@@ -732,6 +732,22 @@ a.case-study-figure-frame:focus-visible {
   text-decoration: underline;
 }
 
+.case-study-dashboard-figure a.case-study-figure-frame {
+  cursor: pointer;
+}
+
+.case-study-dashboard-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 4px 0;
+}
+
+.case-study-dashboard-actions .button {
+  align-items: center;
+  gap: 6px;
+}
+
 .investment-recommendation {
   align-items: center;
   background: $surface-muted;

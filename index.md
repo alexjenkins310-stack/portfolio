@@ -70,8 +70,8 @@ title: Home
     </a>
     <a href="{{ '/projects/#project-3' | relative_url }}">
       <span class="list-copy">
-        <strong>Financial Data Visualization</strong>
-        <span>Financial data translated into clear, decision-ready visuals.</span>
+        <strong>Financial Statement Analysis &amp; Visualization</strong>
+        <span>Interactive Tableau dashboards for evaluating financial position and profitability over time.</span>
       </span>
       <span class="list-arrow" aria-hidden="true">&rarr;</span>
     </a>
