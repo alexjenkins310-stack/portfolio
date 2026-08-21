@@ -7,12 +7,10 @@ title: Home
   <div class="hero-copy">
     <p class="eyebrow">Finance and Accounting</p>
     <h1 class="hero-catchline">
-      <span>Financial Analysis</span>
-      <span>Accounting &amp; Due Diligence</span>
-      <span>Tax Planning</span>
+      Financial Analysis | Investment Research | Accounting &amp; Due Diligence
     </h1>
     <p class="hero-bio">
-      I’m Alex Jenkins, a Finance and Accounting double major at High Point University focused on understanding advanced financial concepts through rigorous coursework and professional exam preparation. I combine accounting fundamentals with careful financial due diligence researching documents in detail to get a clear understanding to support conclusions.
+      I’m Alex Jenkins, a Finance and Accounting double major at High Point University with experience in financial analysis, investment research, portfolio analysis, and tax planning. I combine accounting fundamentals, analytical thinking, and detailed research to evaluate financial information, identify relevant insights, and support well-reasoned decisions.
     </p>
     <div class="hero-actions">
       <a class="button" href="{{ '/resume/' | relative_url }}">Review Resume</a>
@@ -32,16 +30,16 @@ title: Home
   </div>
   <div class="grid">
     <article class="card">
-      <h3>Financial Analysis &amp; Valuation</h3>
-      <p>I work through financial models, forecasts, Morningstar reports, and ratios to understand what the numbers say about a business.</p>
+      <h3>Financial Analysis &amp; Investment Research</h3>
+      <p>I have experience analyzing financial statements, company performance, investment data, and portfolio information to understand key financial drivers and support investment decisions.</p>
     </article>
     <article class="card">
       <h3>Accounting &amp; Due Diligence</h3>
-      <p>I review financial documents and supporting statements to understand how the pieces fit together to reach a clear conclusion.</p>
+      <p>I’m familiar with reviewing financial documents, tax records, and supporting statements to understand how information fits together and identify relevant findings.</p>
     </article>
     <article class="card">
       <h3>Tax Planning &amp; Financial Reporting</h3>
-      <p>I can prepare personal tax projections for the next two years and use the results to determine practical next steps.</p>
+      <p>I have experience preparing personal and trust tax projections, reviewing prior-year tax information, and using projected results to support practical planning decisions.</p>
     </article>
   </div>
   <div class="professional-development">
