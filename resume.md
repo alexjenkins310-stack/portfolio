@@ -140,10 +140,10 @@ permalink: /resume/
   <div class="resume-entry">
     <h3>Skills and Qualifications</h3>
     <ul>
-      <li><strong>Courses:</strong> Corporate Finance, Advanced Accounting, Financial Analysis, Advanced Tax, Econometrics, and Audit.</li>
-      <li><strong>Technical:</strong> Excel, PowerPoint, Tableau, Black Diamond Wealth Solutions, and QuickBooks Online.</li>
-      <li><strong>Tax:</strong> Tax analysis, tax projection review, and individual tax return preparation.</li>
-      <li><strong>Honors and affiliations:</strong> Alpha Lambda Delta, Alpha Chi, and Delta Mu Delta.</li>
+      <li><strong>Finance Courses:</strong> Corporate Finance | Investment Analysis | Econometrics | Financial Derivatives | Fixed Income | Financial Modeling</li>
+      <li><strong>Accounting Courses:</strong> Advanced Accounting | Taxation | Audit | Intermediate Accounting | Accounting Information Systems</li>
+      <li><strong>Technical:</strong> Excel | PowerPoint | Tableau | Black Diamond Wealth Solutions | QuickBooks Online</li>
+      <li><strong>Honors and affiliations:</strong> Alpha Lambda Delta | Alpha Chi | Delta Mu Delta</li>
       <li><strong>Awards:</strong> CFA Program Student Scholarship.</li>
     </ul>
   </div>
